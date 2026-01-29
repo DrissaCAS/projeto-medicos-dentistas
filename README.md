@@ -1,16 +1,29 @@
-# React + Vite
+# 🩺🦷 Projeto Médicos e Dentistas
+Este desafio faz parte da Formação Empower Fullstack da Vai Na Web com os instrutores Vinicius Bispo e Jefferson Santos. 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é meu primeiro projeto em React, neste projeto, o objetivo é desenvolver uma aplicação moderna e acolhedora para apresentar informações, serviços e especialidades relacionadas a médicos e dentistas. Neste repositório será criado um portal simples, fluido e agradável, que ajude o usuário a navegar entre especialidades e entender a importância do cuidado com a saúde geral e bucal.
 
-Currently, two official plugins are available:
+O foco será construir páginas em React, estruturadas com rotas, estilizadas com SCSS e organizadas com boas práticas de código.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Figma do desafio: [Link do Desafio](https://www.figma.com/design/3xVb8soN2e6NHfrNM3kd5J/Desafio-Rotas?node-id=34-11&t=iypLV7eRyZZUWbvB-0)
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🤖 Tecnologias Utilizadas
+- HTML5 — Estrutura do site
+- SCSS (Sass) — Estilização e organização dos estilos
+- React.js
+- React Router DOM
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🎯 Objetivos e Aprendizados
+Criar um portal chamado Médicos & Dentistas, contendo páginas informativas sobre cuidados com a saúde e a odontologia, acessíveis por meio de rotas e organizadas com componentes reutilizáveis.
+
+A interface deve transmitir confiança, profissionalismo e bem-estar por meio das cores, tipografia e organização visual.
+
+
+## 💬 Mensagem final
+Cuidar da saúde — do corpo e do sorriso — é essencial para viver bem. 
+
+
+## 🌐 Deploy
+🔗 Acesse aqui: 
