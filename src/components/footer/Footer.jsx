@@ -14,7 +14,7 @@ function Footer() {
   return (
     <footer>
       <article className={S.menuFooter}>
-        <div className={S.footer-1}>
+        <div>
           <Link to="/" className={S.boxLogo}> 
             <img src={Logo} alt="Logo do site, coração verde" className={S.imgHeader} /> 
             <h2>Médicos & Dentistas</h2>
@@ -22,7 +22,7 @@ function Footer() {
           <p>Saúde e cuidado sem barreiras para toda comunidade.</p>
         </div>
 
-        <div className={S.footer-2}>
+        <div>
           <h4>Contato</h4>
           <a href="mailt">
             <MdOutlineEmail />
@@ -38,7 +38,7 @@ function Footer() {
           </a>
         </div>
 
-        <div className={S.footer-3}>
+        <div>
           <h4>Redes Sociais</h4>
           <a href="https://www.facebook.com/drissa.designergrafico/" target="_blank">
             <CiFacebook /> 

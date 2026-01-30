@@ -38,6 +38,16 @@ footer {
                 font-size: 14px;
             }
         }
+        
+        @media (max-width: 900px) {
+            flex-direction: column;
+            gap: 15px;
+            padding: 30px;
+
+            div {
+                padding: 20px 0;
+            }
+        }
     }
 
     .textFooter {
