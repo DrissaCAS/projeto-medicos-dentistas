@@ -1,0 +1,30 @@
+.impactoCards {
+    display: flex;
+    gap: 30px;
+
+    max-width: 940px;
+    width: 100%;
+
+    .impactoCard {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+
+        width: 300px;
+        height: 180px;
+        padding: 30px;
+        border: #00745A solid 2px;
+        border-radius: 10px;
+        text-align: center;
+        
+        h2 {
+            color: #00745A;
+        }
+        
+    }
+
+    @media (max-width:900px) {
+        flex-direction: column;
+    }
+}
