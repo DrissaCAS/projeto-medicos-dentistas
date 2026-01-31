@@ -1,5 +1,5 @@
 import S from './sejaVoluntario.module.scss'
-
+import Voluntario from '../../components/cards/cardVoluntario'
 
 export default function SejaVoluntario() {
   return (
@@ -8,6 +8,8 @@ export default function SejaVoluntario() {
         <h2>Seja Voluntário</h2>
         <p>Junte-se a nós e faça a diferença na vida de pessoas que precisam</p>
       </section>
+
+      <Voluntario />
       
       <section className={S.formulario}>
         <article className={S.containerForm}>
@@ -24,7 +26,7 @@ export default function SejaVoluntario() {
 
             <h5>Mensagem Adicional</h5>
 
-            <input type="text" name="mensagem" placeholder="Conte-nos porque você quer ser voluntario..." />
+            <textarea name="mensagem" placeholder="Conte-nos porque você quer ser voluntario..." ></textarea>
 
             <div className={S.bottomForm}>
               <p>Entraremos em contato para mais informações</p>
